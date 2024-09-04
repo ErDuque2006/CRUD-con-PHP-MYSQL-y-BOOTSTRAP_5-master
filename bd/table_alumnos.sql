@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-02-2022 a las 20:28:43
--- Versión del servidor: 10.4.21-MariaDB
--- Versión de PHP: 7.4.24
+-- Tiempo de generación: 05-09-2024 a las 00:40:19
+-- Versión del servidor: 10.4.32-MariaDB
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `alumnos`
+-- Base de datos: `crud_php`
 --
 
 -- --------------------------------------------------------
@@ -35,15 +35,15 @@ CREATE TABLE `table_alumnos` (
   `section` varchar(5) DEFAULT NULL,
   `foto` varchar(50) DEFAULT NULL,
   `fechaRegistro` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `table_alumnos`
 --
 
 INSERT INTO `table_alumnos` (`id`, `namefull`, `cedula`, `sexo`, `section`, `foto`, `fechaRegistro`) VALUES
-(34, 'Urian Viera', 123456, 'M', 'B', '7c6126a0.PNG', '01-02-2022 14:27:52 PM'),
-(35, 'Suscríbete a mi Canal', 11111112, 'M', 'B', 'f72be04b.PNG', '01-02-2022 14:28:22 PM');
+(1, 'Lionel Andrés Messi Cuccittini', 1020404094, 'M', 'B', '0bed65d7.jpg', '01-02-2022 14:27:52 PM'),
+(2, 'Cristiano Ronaldo dos Santos Aveiro', 1022145509, 'M', 'B', '9f20d49a.jpg', '01-02-2022 14:28:22 PM');
 
 --
 -- Índices para tablas volcadas
@@ -63,7 +63,7 @@ ALTER TABLE `table_alumnos`
 -- AUTO_INCREMENT de la tabla `table_alumnos`
 --
 ALTER TABLE `table_alumnos`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

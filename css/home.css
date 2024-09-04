@@ -15,7 +15,7 @@ body{
     color: rgb(0, 0, 0);
   }
   p span{
-    color: crimson;
+    color: rgb(255, 115, 220);
   }
   label{
     color: #333 !important;
@@ -42,7 +42,7 @@ body{
     max-width: 250px;
 }
 .titleAlumno{
-    color: orange;
+    color: rgb(255, 0, 0);
     font-weight: 800;
 }
 .logo{
