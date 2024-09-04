@@ -1,5 +1,5 @@
 body{
-    background-color: #edc0ff !important;
+    background-color: #428af5 !important;
   }
   .container{
     background-color: #fff;
@@ -15,7 +15,7 @@ body{
     color: rgb(0, 0, 0);
   }
   p span{
-    color: rgb(255, 115, 220);
+    color: rgb(255, 0, 0);
   }
   label{
     color: #333 !important;
