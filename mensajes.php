@@ -59,7 +59,7 @@ if(isset($_REQUEST['deletAlumno'])){ ?>
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
       <img src="imgs/logo.png" class="rounded me-2 logo" alt="Logo">
-      <strong class="me-auto">Web Developer - Urian Viera</strong>
+      <strong class="me-auto">Web Developer</strong>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
     <div class="toast-body">
